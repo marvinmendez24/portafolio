@@ -20,8 +20,9 @@ function minificarJs( done ){
 
 function dev( done ){
     watch('src/scss/**/*.scss', compilarCss)
+    watch('src/js/app.js', minificarJs)
 
     done();
 }
 
-exports.dev = minificarJs;
+exports.dev = dev;

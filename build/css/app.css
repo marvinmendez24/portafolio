@@ -258,3 +258,64 @@ p {
     text-align: left;
   }
 }
+
+.main-proyectos {
+  background-color: #FFF;
+  width: 90%;
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-top: -8rem;
+  padding: 3rem;
+  box-shadow: 0px 0px 10px 0.1px;
+}
+@media (min-width: 480px) {
+  .main-proyectos {
+    margin: 2rem auto;
+    box-shadow: 0px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+.main-proyectos .card {
+  border: 0.2rem solid #E2E2E2;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.main-proyectos .card .card-header {
+  height: 20rem;
+  width: 100%;
+  background-image: url("../../src/img/mined_azul.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center center;
+}
+.main-proyectos .card .card-body {
+  background-color: #E2E2E2;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.main-proyectos .card .card-body p {
+  flex-grow: 1;
+}
+.main-proyectos .card .card-body .btn {
+  color: #FFF;
+  background-color: #02253D;
+  border: 0.1rem solid none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  border: 0;
+  display: block;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1rem 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+.main-proyectos .card .card-body .btn:hover {
+  background-color: #011624;
+}

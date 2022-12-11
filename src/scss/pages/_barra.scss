@@ -1,0 +1,33 @@
+@use 'variables' as *;
+
+.barra {
+    padding: 1rem 2rem 10rem 2rem;
+    background-color: $white;
+
+    @media(min-width: 480px){
+        padding: 2rem;
+    }
+
+    .titulo{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        span{
+            display: inline-block;
+            width: 1rem;
+            height: 1rem;
+            background-color: $primary;
+            border-radius: 50%;
+        }
+    }
+    .eslogan{
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+        @media(min-width: 480px){
+            text-align: left;
+        }
+    
+    }
+}

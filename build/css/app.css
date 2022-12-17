@@ -86,6 +86,10 @@ p {
   display: none;
 }
 
+.p-3 {
+  padding: 1rem;
+}
+
 .barra {
   padding: 1rem 2rem 10rem 2rem;
   background-color: #FFF;

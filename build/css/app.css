@@ -287,7 +287,7 @@ p {
 .main-proyectos .card .card-header {
   height: 20rem;
   width: 100%;
-  background-image: url("https://www.formacion.infod.edu.sv/img/logos/mined_azul.svg");
+  background-image: url("../../src/img/mined_azul.svg");
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center center;

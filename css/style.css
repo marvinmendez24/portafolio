@@ -10777,15 +10777,6 @@ textarea.form-control-lg {
   background-color: #14141e;
 }
 
-@media (min-width: 992px) {
-  body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
 .circulo-externo {
   width: 150px;
   height: 150px;

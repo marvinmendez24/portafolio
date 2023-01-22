@@ -1,0 +1,24 @@
+{
+  "name": "portafolio2",
+  "version": "1.0.0",
+  "description": "Portafolio #2 de Marvin Méndez",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev"
+  },
+  "keywords": [
+    "Creando",
+    "portafolio"
+  ],
+  "author": "Marvin Méndez",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.2.3",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.10.3"
+  }
+}

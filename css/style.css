@@ -10789,12 +10789,17 @@ textarea.form-control-lg {
 .circulo-externo.javascript {
   animation-duration: 3s;
   animation-name: rotacionjavascript;
-  transform: rotate(153deg);
+  transform: rotate(135deg);
 }
 .circulo-externo.php {
   animation-duration: 3s;
   animation-name: rotacionphp;
   transform: rotate(108deg);
+}
+.circulo-externo.react {
+  animation-duration: 3s;
+  animation-name: rotacionreact;
+  transform: rotate(45deg);
 }
 .circulo-externo .parte-superior,
 .circulo-externo .parte-inferior {
@@ -10832,7 +10837,15 @@ textarea.form-control-lg {
     transform: rotate(0);
   }
   to {
-    transform: rotate(153deg);
+    transform: rotate(135deg);
+  }
+}
+@keyframes rotacionreact {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(45deg);
   }
 }
 @keyframes rotacionphp {
